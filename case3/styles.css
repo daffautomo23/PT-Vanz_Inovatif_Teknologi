@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #00d5ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    background: #003356;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* Warna teks saat tidak di-hover */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 10px 15px; /* Menambahkan padding pada tautan */
+    border-radius: 50px; /* Membuat sudut bulat pada tautan */
+    transition: background 0.3s, color 0.3s; /* Transisi halus untuk perubahan */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Warna latar belakang saat di-hover */
+    color: #fff; /* Warna teks saat di-hover */
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex; /* Menjadikan elemen produk sebagai flex container */
+    flex-direction: column; /* Mengatur arah kolom untuk elemen produk */
+    align-items: center; /* Memusatkan elemen produk secara horizontal */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    background: #fff; /* Tambahkan latar belakang putih */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+}
+
+.product img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #00d5ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #003356;
+    color: #fff;
+    border-radius: 50px 50px 0 0;
+}
