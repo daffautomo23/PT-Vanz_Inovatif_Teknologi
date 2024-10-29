@@ -1,0 +1,3 @@
+Saya menggunakan array_map('strtolower', $ownedFruits) Untuk memastikan semua nama buah dalam array di $ownedFruits dicari dalam bentuk lowercase, jadi nama yang memiliki huruf besar/Kecil tidak di duplicate.
+
+Lalu, if (!in_array($fruitNameLower, array_map('strtolower', $containers[$fruit->fruitType]['fruits']))) ini saya gunakan untuk mengecek tiap tipe agar tidak duplicate.
